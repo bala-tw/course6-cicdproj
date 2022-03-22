@@ -1,4 +1,4 @@
 From openjdk:8
 Expose 8090
-Add target/SpringDB-Version1.war SpringDB-Version1.war
-ENTRYPOINT ["java","-jar","/SpringDB-Version1.war"]
+Add target/springdb-version1.war springdb-version1.war
+ENTRYPOINT ["java","-jar","/springdb-version1.war"]
