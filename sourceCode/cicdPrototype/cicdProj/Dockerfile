@@ -1,4 +1,4 @@
 From openjdk:8
 Expose 8090
-Add target/springdb-version1.war springdb-version1.war
-ENTRYPOINT ["java","-jar","/springdb-version1.war"]
+Add target/dockerspring-v1.war dockerspring-v1.war
+ENTRYPOINT ["java","-jar","/dockerspring-v1.war"]
